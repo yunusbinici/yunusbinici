@@ -1,7 +1,0 @@
-//Created by Yunus
-import hashlib as hasher
-password= hasher.sha1()//burda istediğiniz hash algoritmasını ekleyebilirsiniz(md5 sha255 vs...)
-word= input("hashlenmesini istediğiniz bir metin giriniz: ") 
-password.update(metin.encode("utf-8"))//türkçe karakter eklemesi
-hash= password.hexdigest()
-print(hash)
